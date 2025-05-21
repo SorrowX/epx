@@ -1,0 +1,11 @@
+import installer from './defaults';
+export * from 'element-plus-x/es/components';
+export * from 'element-plus-x/es/constants';
+export * from 'element-plus-x/es/directives';
+export * from 'element-plus-x/es/hooks';
+export * from 'element-plus-x/es/utils';
+export * as IconsVue from 'element-plus-x/es/components/icons-vue/index';
+export * as Formily from 'element-plus-x/es/formily/index';
+export declare const install: (app: import("vue").App, options?: import("element-plus-x/es/components").ConfigProviderV2Context) => void;
+export declare const version: string;
+export default installer;

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../../../../../packages/formily/__builtins__/configs/index.ts"],"sourcesContent":["export const stylePrefix = 'fep'\n"],"names":[],"mappings":";;;;AAAO,MAAM,WAAc,GAAA;;;;"}

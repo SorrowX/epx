@@ -1,0 +1,52 @@
+import type { Component } from 'vue';
+export type FormItemProps = {
+    className?: string;
+    required?: boolean;
+    label?: string | Component;
+    colon?: boolean;
+    tooltip?: string | Component;
+    layout?: 'vertical' | 'horizontal' | 'inline';
+    labelStyle?: Record<string, any>;
+    labelAlign?: 'left' | 'right';
+    labelWrap?: boolean;
+    labelWidth?: number;
+    wrapperWidth?: number;
+    labelCol?: number;
+    wrapperCol?: number;
+    wrapperAlign?: 'left' | 'right';
+    wrapperWrap?: boolean;
+    wrapperStyle?: Record<string, any>;
+    fullness?: boolean;
+    addonBefore?: string | Component;
+    addonAfter?: string | Component;
+    prefix?: string | Component;
+    suffix?: string | Component;
+    size?: 'small' | 'default' | 'large';
+    extra?: string;
+    feedbackText?: string | Component;
+    feedbackLayout?: 'loose' | 'terse' | 'popover' | 'none' | (string & {});
+    feedbackStatus?: 'error' | 'warning' | 'success' | 'pending' | (string & {});
+    tooltipLayout?: 'icon' | 'text';
+    feedbackIcon?: string | Component;
+    asterisk?: boolean;
+    gridSpan?: number | string;
+    bordered?: boolean;
+    inset?: boolean;
+};
+export declare const FormBaseItem: import("vue").DefineComponent<FormItemProps, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, import("vue").PublicProps, Readonly<FormItemProps> & Readonly<{}>, {}, {}, {}, {}, string, import("vue").ComponentProvideOptions, false, {}, any>;
+export declare const FormItem: {
+    new (...args: any[]): import("vue").CreateComponentPublicInstanceWithMixins<Readonly<FormItemProps> & Readonly<{}>, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, import("vue").PublicProps, {}, false, {}, {}, import("vue").GlobalComponents, import("vue").GlobalDirectives, string, {}, any, import("vue").ComponentProvideOptions, {
+        P: {};
+        B: {};
+        D: {};
+        C: {};
+        M: {};
+        Defaults: {};
+    }, Readonly<FormItemProps> & Readonly<{}>, {}, {}, {}, {}, {}>;
+    __isFragment?: never;
+    __isTeleport?: never;
+    __isSuspense?: never;
+} & import("vue").ComponentOptionsBase<Readonly<FormItemProps> & Readonly<{}>, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, {}, {}, string, {}, import("vue").GlobalComponents, import("vue").GlobalDirectives, string, import("vue").ComponentProvideOptions> & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps & {
+    BaseItem: import("vue").DefineComponent<FormItemProps, {}, {}, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, {}, string, import("vue").PublicProps, Readonly<FormItemProps> & Readonly<{}>, {}, {}, {}, {}, string, import("vue").ComponentProvideOptions, false, {}, any>;
+};
+export default FormItem;

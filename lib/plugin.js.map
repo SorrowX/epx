@@ -1,0 +1,1 @@
+{"version":3,"file":"plugin.js","sources":["../../../packages/element-plus/plugin.ts"],"sourcesContent":["import type { Plugin } from 'vue'\n\nexport default [] as Plugin[]\n"],"names":[],"mappings":";;;;AAEA,cAAe,EAAC;;;;"}

@@ -1,0 +1,10 @@
+import Editor from './src/editor.vue';
+import EditorToolbar from './src/toolbar/index.vue';
+import type { SFCWithInstall } from 'element-plus-x/es/utils';
+export declare const ElEditor: SFCWithInstall<typeof Editor>;
+export default ElEditor;
+export declare const ElEditorToolbar: SFCWithInstall<typeof EditorToolbar>;
+export * from './src/editor';
+export * from './src/types';
+export * from './src/helper';
+export type { EditorInstance } from './src/instance';
