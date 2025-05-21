@@ -1,1 +1,0 @@
-{"version":3,"file":"uid.mjs","sources":["../../../../packages/utils/uid.ts"],"sourcesContent":["export const uid = (): string => String(Math.floor(Math.random() * 10000))\n"],"names":[],"mappings":"AAAa,MAAA,GAAA,GAAM,MAAc,MAAO,CAAA,IAAA,CAAK,MAAM,IAAK,CAAA,MAAA,EAAW,GAAA,GAAK,CAAC;;;;"}

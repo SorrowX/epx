@@ -1,3 +1,0 @@
-export { default as en } from './lang/en.mjs';
-export { default as zhCn } from './lang/zh-cn.mjs';
-//# sourceMappingURL=index.mjs.map

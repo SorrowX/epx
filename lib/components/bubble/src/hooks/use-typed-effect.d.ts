@@ -1,7 +1,0 @@
-import type { Ref, VNode } from 'vue';
-/**
- * Return typed content and typing status when typing is enabled.
- * Or return content directly.
- */
-declare const useTypedEffect: (content: Ref<VNode | object | string>, typingEnabled: Ref<boolean>, typingStep: Ref<number>, typingInterval: Ref<number>) => [typedContent: Ref<VNode | string>, isTyping: Ref<boolean>];
-export default useTypedEffect;
